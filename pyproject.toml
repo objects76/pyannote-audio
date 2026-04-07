@@ -1,7 +1,7 @@
 [project]
-name = "pyannote-compact"
+name = "pyannote-audio"
 version = "4.0.4.post1"
-description = "Minimal extraction from pyannote.audio/.core"
+description = "Minimal extraction from pyannote.audio"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
@@ -12,6 +12,7 @@ dependencies = [
     "einops",
     "asteroid-filterbanks",
     "sortedcontainers>=2.4.0",
+    "pyannote-core",
 ]
 
 [build-system]
@@ -20,6 +21,9 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.uv.sources]
+pyannote-core = { git = "https://github.com/objects76/pyannote-core.git" }
 
 [dependency-groups]
 dev = [
