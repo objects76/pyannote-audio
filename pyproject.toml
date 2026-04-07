@@ -1,7 +1,7 @@
 [project]
-name = "pyannote-audio"
+name = "pyannote-compact"
 version = "4.0.4.post1"
-description = "Minimal VAD-only extraction from pyannote.audio"
+description = "Minimal extraction from pyannote.audio/.core"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
@@ -10,7 +10,6 @@ dependencies = [
     "numpy",
     "scipy",
     "einops",
-    "pyannote-core @ git+https://github.com/objects76/pyannote-core.git",
     "asteroid-filterbanks",
 ]
 
