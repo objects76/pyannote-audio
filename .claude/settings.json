@@ -1,0 +1,13 @@
+
+{
+  "env": {
+    "ENABLE_TOOL_SEARCH": "false",
+    "CLAUDE_CODE_DISABLE_CRON": "1",
+    "DISABLE_AUTOUPDATER": "1",
+    "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "db3f231c74594c4ea863ff04fe1d73fe.YUgD0n5ZWqiahPch",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-5.1",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.1",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.1"
+  }
+}

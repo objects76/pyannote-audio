@@ -1,0 +1,22 @@
+[project]
+name = "pyannote-audio"
+version = "4.0.4.post1"
+description = "Minimal VAD-only extraction from pyannote.audio"
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "torch>=2.10,<2.11",
+    "torchaudio>=2.10,<2.11",
+    "numpy",
+    "scipy",
+    "einops",
+    "pyannote-core @ git+https://github.com/objects76/pyannote-core.git",
+    "asteroid-filterbanks",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
