@@ -49,5 +49,5 @@ except ImportError as e:
 
 Segment.set_precision()
 
-__version__ = importlib.metadata.version("pyannote-core")
+__version__ = importlib.metadata.version("pyannote-compact")
 

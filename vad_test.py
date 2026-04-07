@@ -48,6 +48,7 @@ def test_vad():
     print(f"  Segments: {len(vad_result)}")
     assert len(vad_result) > 0, "No speech segments detected!"
     print("\n[PASS] VAD test passed!")
+    return vad_result
 
 
 if __name__ == "__main__":
